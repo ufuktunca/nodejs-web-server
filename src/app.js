@@ -67,5 +67,5 @@ app.get("*", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("Server is start to listen:" + port);
+  console.log("Server is start to listen: " + port);
 });
